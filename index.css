@@ -1,0 +1,142 @@
+.nav-logo {
+    height: 34px;
+    width: 32.53907775878906px;
+    left: 0.73046875px;
+    top: 19px;
+    border-radius: 0px;
+    margin-left: 165.73px;
+}
+
+.Taskdo {
+    height: 20px;
+    width: 72px;
+    left: 207px;
+    top: 27px;
+    border-radius: nullpx;
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 2.69px;
+}
+
+.About {
+    height: 20px;
+    width: 41px;
+    margin-left: 89px;
+    top: 0px;
+}
+
+.Products {
+    margin-left: 32px;
+    height: 20px;
+    width: 61px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.Pricing {
+    margin-left: 32px;
+    height: 20px;
+    width: 47px;
+    top: 0px;
+    border-radius: nullpx;
+}
+
+.Blog {
+    margin-left: 32px;
+}
+
+.Jobs {
+    margin-left: 32px;
+}
+
+.bg {
+    background-image: url('./assets//Background.svg');
+    margin-bottom: 20px;
+    height: 866px;
+    width: 1440px;
+    position: absolute;
+}
+
+.nav {
+    position: relative;
+}
+
+.div2 {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: row;
+    height: 896px;
+    background-color: #D5FAFC;
+}
+
+.comma {
+    width: 142.37px;
+    height: 120px;
+    position: relative;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.div5 {
+    display: flex;
+    flex-direction: row;
+    height: 332px;
+    margin-top: 10px;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+}
+
+.ina {
+    display: flex;
+    flex-direction: row;
+}
+
+.div6 {
+    top: 2908px;
+    height: 668px;
+}
+
+.div6 .in {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+}
+
+.dl-row {
+    display: flex;
+    flex-direction: row;
+}
