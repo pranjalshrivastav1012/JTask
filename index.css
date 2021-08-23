@@ -1,66 +1,107 @@
 .nav-logo {
     height: 34px;
-    width: 32.53907775878906px;
-    left: 0.73046875px;
-    top: 19px;
-    border-radius: 0px;
-    margin-left: 165.73px;
 }
 
 .Taskdo {
-    height: 20px;
-    width: 72px;
-    left: 207px;
-    top: 27px;
-    border-radius: nullpx;
-    /* font-family: Inter; */
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
-    margin-left: 2.69px;
+    padding-left: 12px;
+    line-height: 2;
 }
 
-.About {
-    height: 20px;
-    width: 41px;
-    margin-left: 89px;
-    top: 0px;
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 16px;
+    margin-right: 165px;
+    margin-left: 165px;
 }
 
-.Products {
-    margin-left: 32px;
-    height: 20px;
-    width: 61px;
-    left: 0px;
-    top: 0px;
-    border-radius: nullpx;
+.header-col-1 {
+    width: 10%;
+    display: flex;
+    text-align: center;
+    line-height: 2;
 }
 
-.Pricing {
-    margin-left: 32px;
-    height: 20px;
-    width: 47px;
-    top: 0px;
-    border-radius: nullpx;
+.header-col-2 {
+    width: 35%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 3;
 }
 
-.Blog {
-    margin-left: 32px;
+.header-col-3 {
+    width: 40%;
 }
 
-.Jobs {
-    margin-left: 32px;
+.text {
+    font-weight: 800;
+    font-size: 72px;
+    padding-top: 100px;
 }
+
+.get-started-btn {
+    font-size: 16px;
+    font-weight: 500;
+    width: 154px;
+    height: 48px;
+    color: white;
+    background-color: #8C30F5;
+    border: none;
+    border-radius: 6px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    height: 86px;
+    justify-content: space-evenly;
+    margin-top: 36px;
+    padding-left: 162px;
+    padding-right: 162px;
+    margin-bottom: 0px;
+}
+
+.carousel-list-cntnr {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.btn-carousel {
+    line-height: 2;
+}
+
+.About {}
+
+.Products {}
+
+.Pricing {}
+
+.Blog {}
+
+.Jobs {}
 
 .bg {
-    background-image: url('./assets//Background.svg');
-    margin-bottom: 20px;
-    height: 866px;
-    width: 1440px;
-    position: absolute;
+    background-image: url(./assets/Background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .nav {
@@ -68,32 +109,47 @@
 }
 
 .div2 {
-    position: relative;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 112px;
 }
 
 .first {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .second {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding-top: 64px;
 }
 
 .div4 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     height: 896px;
     background-color: #D5FAFC;
+    padding-top: 30px;
 }
 
 .comma {
-    width: 142.37px;
+    position: absolute;
     height: 120px;
-    position: relative;
+    width: 142.3728790283203px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin-left: 165px;
+    left: 0%;
+    right: 0.44%;
+    margin-top: 125%;
+    bottom: 0%;
 }
 
 .testimonial {
@@ -106,6 +162,7 @@
     flex-direction: row;
     height: 332px;
     margin-top: 10px;
+    justify-content: space-around;
 }
 
 .in {
@@ -121,22 +178,245 @@
 .div6 {
     top: 2908px;
     height: 668px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.div6 .in {
+.in6 {
     display: flex;
     flex-direction: row;
-}
-
-.footer {
-    height: 280px;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    background-color: black;
+    justify-content: space-between;
+    width: 540px;
+    height: 540px;
+    left: 0px;
+    top: 0px;
+    /* Brand / Purple 100 */
+    background: #F1E4FF;
+    border-radius: 8px;
 }
 
 .dl-row {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.tailor-made {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.t2 {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.t3 {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.hub {
+    padding: 32px;
+    width: 350px;
+    height: 468px;
+    left: 455px;
+    top: 312px;
+    /* Default / White */
+    /* Dark Shadow */
+    border-radius: 8px;
+}
+
+.air {
+    height: 340px;
+    width: 445px;
+    left: 735px;
+    top: 168px;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.book {
+    height: 276px;
+    width: 350px;
+    left: 735px;
+    top: 540px;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.our {
+    position: static;
+    width: 540px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    /* Heading / H2 */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.sp {
+    position: static;
+    width: 540px;
+    height: 32px;
+    left: 0px;
+    top: 136px;
+    /* Lead / Lead 1 */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.ten {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 39.39%;
+    /* Heading / H4 */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.gs {
+    position: static;
+    left: 0%;
+    right: 26.45%;
+    top: 0%;
+    bottom: 0%;
+    /* Label / Large Label */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Brand / Purple */
+    color: #8C30F5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.v {
+    left: 4.17%;
+    right: 4.17%;
+    top: 20.83%;
+    bottom: 20.83%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0B0D17;
+    color: white;
+    left: 0%;
+    right: 0%;
+    top: 92.74%;
+    bottom: 0%;
+}
+
+.fDiv1 {
+    margin-left: 151px;
+    width: 40%;
+}
+
+.nav-logof1 {
+    left: 2.15%;
+    right: 2.15%;
+    margin-top: 56px;
+}
+
+.dl-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dl-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.f2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-right: 191px;
+}
+
+.do {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 60.61%;
+    bottom: 0%;
+    /* Body / Body 1 */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
